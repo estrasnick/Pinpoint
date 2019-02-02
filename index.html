@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Pinpoint</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      .author {
+        text-align: center;
+      }
+      .authorname {
+        font-weight: 400;
+      }
+      .abstract {
+        font-size: 1.3em;
+      }
+      .headinglink {
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12" style="text-align:center">
+            <h1>Pinpoint: A PCB Debugging Pipeline Using Interruptible Routing and Instrumentation</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 author">
+            <p class="lead"><a href="http://cs.stanford.edu/people/estrasni/" class="authorname">Evan Strasnick</a><br>Stanford</p>
+          </div>
+          <div class="col-sm-4 author">
+            <p class="lead"><a href="https://shape.stanford.edu" class="authorname">Sean Follmer</a><br>Stanford</p>
+          </div>
+          <div class="col-sm-4 author">
+            <p class="lead"><a href="http://graphics.stanford.edu/~maneesh/" class="authorname">Maneesh Agrawala</a><br>Stanford</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="./pinpoint_thumbnail_q.png" width="100%">
+            <h3>Abstract</h3>
+            <p class="lead abstract">
+             Difficulties in accessing, isolating, and iterating on the components and connections of a printed circuit board (PCB) create unique challenges in PCB debugging. Manual probing methods are slow and error prone, and even dedicated PCB testing equipment remains limited by its inability to modify the circuit during testing. We present Pinpoint, a tool that facilitates in-circuit PCB debugging through techniques such as programmatically probing signals, dynamically disconnecting components and subcircuits to test in isolation, and splicing in new elements to explore potential modifications. Pinpoint automatically instruments a PCB design and generates designs for a physical jig board that interfaces the user's PCB to our custom testing hardware and to software tools. We evaluate Pinpoint's ability to facilitate the debugging of various PCB issues by instrumenting and testing different classes of boards, as well as by characterizing its technical limitations and by soliciting feedback through a guided exploration with PCB designers.
+            </p>
+          </div>
+        </div>
+        <h3>Paper
+          <a href="pinpoint_preprint.pdf" class="headinglink"> PDF (3.9MB)</a>
+        </h3>
+        <!--
+        <h3>Code Repository
+            <a href="" class="headinglink"> GitHub</a>
+        </h3>
+        -->
+        <h3>Video
+          <a href="https://drive.google.com/file/d/1FSsi7qIlR4sQs-RZMeZl8j3NERt-fqIe/preview" class="headinglink">MP4 (167MB)</a>
+        </h3>
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/D43a-r5M9ys' frameborder='0' allowfullscreen></iframe></div>
+
+        <!-- <h3>Supplementary material: (Source code coming soon!)</h3> -->
+        <h3>Bibtex</h3>
+          <pre>
+@inproceedings{strasnick2019pinpoint,
+    title={Pinpoint: A PCB Debugging Pipeline Using Interruptible Routing and Instrumentation},
+    author={Strasnick, Evan and Follmer, Sean and Agrawala, Maneesh},
+    booktitle={To appear, CHI'19},
+    year={2019},
+    organization={ACM}
+}</pre>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>-->
+  </body>
+</html>
